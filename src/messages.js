@@ -9,4 +9,6 @@ export default {
   'field.persons_common.deathPlace.name': 'Where',
   'field.persons_common.occupation.name': 'Occupation/sphere of activity',
   'field.persons_common.bioNote.name': 'Note',
+
+  'field.places_common.placeNote.name': 'Legal description',
 };
