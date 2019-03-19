@@ -1,4 +1,9 @@
 export default {
+  'field.acquisitions_common.accessionDateGroup.name': 'Accessioned',
+  'field.acquisitions_common.acquisitionMethod.name': 'Received as',
+  'field.acquisitions_common.acquisitionProvisos.name': 'Restrictions',
+  'field.acquisitions_common.acquisitionReferenceNumber.name': 'Accession number',
+
   'field.collectionobjects_common.contentDescription.name': 'Description/summary/scope',
   'field.collectionobjects_common.contentNote.name': 'Abstract',
   'field.collectionobjects_common.inscriptionDescriptionInterpretation.name': 'Maker\'s mark note',
