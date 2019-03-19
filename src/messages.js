@@ -12,6 +12,22 @@ export default {
 
   'field.conditionchecks_common.techAssessmentGroup.name': 'Mechanism operation',
 
+  'field.intakes_common.currentOwner.name': 'Source',
+  'field.intakes_common.despositorsRequirements.name': 'Restriction',
+  'field.intakes_common.entryDate.name': 'Received date',
+  'field.intakes_common.entryMethod.name': 'Received as',
+  'field.intakes_common.entryNote.name': 'Note',
+  'field.intakes_common.returnDate.name': 'Return by',
+  'field.intakes_common.insuranceRenewalDate.name': 'Policy expiration date',
+  'field.intakes_common.insurer.name': 'Insurance company',
+  'field.intakes_common.currentLocationGroup.name': 'Interim location',
+  'field.intakes_common.currentLocation.fullName': 'Interim location',
+  'field.intakes_common.currentLocationFitness.fullName': 'Interim location fitness',
+  'field.intakes_common.locationDate.name': 'Inventoried date',
+  'field.intakes_common.conditionCheckDate.name': 'Condition date',
+  'field.intakes_common.conditionCheckNote.name': 'Condition note',
+  'field.intakes_common.conditionCheckerOrAssessor.name': 'Condition by',
+
   'field.persons_common.personTermGroupList.required': 'At least one full name is required. Please enter a value.',
   'field.persons_common.termDisplayName.name': 'Full name',
   'field.persons_common.forename.name': 'First name',
