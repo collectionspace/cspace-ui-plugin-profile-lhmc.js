@@ -3,6 +3,7 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import culturalCareExtensionPlugin from 'cspace-ui-plugin-ext-culturalcare';
 import messages from './messages';
 import plugins from './plugins';
 import styles from '../styles/cspace-ui-plugin-profile/lhmc.css';
@@ -23,5 +24,8 @@ module.exports = () => ({
       version: cspaceUIPluginProfileLHMC.packageVersion,
     },
   },
-  plugins: plugins.map(plugin => plugin()),
+  plugins: [
+    culturalCareExtensionPlugin(),
+    ...plugins.map(plugin => plugin()),
+  ],
 });
