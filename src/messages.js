@@ -10,6 +10,8 @@ export default {
   'field.collectionobjects_common.objectStatus.name': 'Original/copy',
   'field.collectionobjects_common.objectHistoryNote.name': 'Provenance',
 
+  'field.conditionchecks_common.techAssessmentGroup.name': 'Mechanism operation',
+
   'field.persons_common.personTermGroupList.required': 'At least one full name is required. Please enter a value.',
   'field.persons_common.termDisplayName.name': 'Full name',
   'field.persons_common.forename.name': 'First name',
