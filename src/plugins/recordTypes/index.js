@@ -5,6 +5,7 @@ import exhibition from './exhibition';
 import intake from './intake';
 import loanin from './loanin';
 import loanout from './loanout';
+import movement from './movement';
 import person from './person';
 import place from './place';
 import work from './work';
@@ -17,6 +18,7 @@ export default [
   intake,
   loanin,
   loanout,
+  movement,
   person,
   place,
   work,
