@@ -71,8 +71,6 @@ export default (configContext) => {
             view: {
               type: AutocompleteInput,
               props: {
-                // Suppress Chrome autofill
-                autoComplete: 'cspace-person-name',
                 source: 'person/local,person/ulan,person/shared',
               },
             },
@@ -93,8 +91,6 @@ export default (configContext) => {
             view: {
               type: TermPickerInput,
               props: {
-                // Suppress Chrome autofill
-                autoComplete: 'cspace-related-person-type',
                 source: 'personrelationship',
               },
             },
@@ -114,10 +110,6 @@ export default (configContext) => {
             }),
             view: {
               type: TextInput,
-              props: {
-                // Suppress Chrome autofill
-                autoComplete: 'cspace-related-person-note',
-              },
             },
           },
         },
@@ -136,8 +128,6 @@ export default (configContext) => {
             view: {
               type: AutocompleteInput,
               props: {
-                // Suppress Chrome autofill
-                autoComplete: 'cspace-place',
                 source: 'place/local,place/tgn,place/shared',
               },
             },
@@ -157,10 +147,6 @@ export default (configContext) => {
             }),
             view: {
               type: TextInput,
-              props: {
-                // Suppress Chrome autofill
-                autoComplete: 'cspace-place-note',
-              },
             },
           },
         },
