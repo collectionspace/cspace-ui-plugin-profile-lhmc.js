@@ -19,6 +19,14 @@ export default (configContext) => {
 
   return {
     document: {
+      'ns2:loansin_common': {
+        loanStatusGroupList: {
+          // Replaced by loaninStatusLHMCGroupList. Hide from search.
+          [config]: {
+            searchDisabled: true,
+          },
+        },
+      },
       'ns2:loansin_lhmc': {
         [config]: {
           service: {
@@ -54,13 +62,13 @@ export default (configContext) => {
             loaninStatusLHMC: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.loansin_lhmc.loaninStatusLHMC.name',
-                    defaultMessage: 'Status',
-                  },
                   fullName: {
                     id: 'field.loansin_lhmc.loaninStatusLHMC.fullName',
                     defaultMessage: 'Loan status',
+                  },
+                  name: {
+                    id: 'field.loansin_lhmc.loaninStatusLHMC.name',
+                    defaultMessage: 'Status',
                   },
                 }),
                 view: {
@@ -75,13 +83,13 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_DATE,
                 messages: defineMessages({
-                  name: {
-                    id: 'field.loansin_lhmc.loaninStatusDateLHMC.name',
-                    defaultMessage: 'Date',
-                  },
                   fullName: {
                     id: 'field.loansin_lhmc.loaninStatusDateLHMC.fullName',
                     defaultMessage: 'Loan status date',
+                  },
+                  name: {
+                    id: 'field.loansin_lhmc.loaninStatusDateLHMC.name',
+                    defaultMessage: 'Date',
                   },
                 }),
                 view: {
@@ -92,6 +100,10 @@ export default (configContext) => {
             loaninStatusNoteLHMC: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.loansin_lhmc.loaninStatusNoteLHMC.fullName',
+                    defaultMessage: 'Loan status note',
+                  },
                   name: {
                     id: 'field.loansin_lhmc.loaninStatusNoteLHMC.name',
                     defaultMessage: 'Note',
@@ -105,13 +117,13 @@ export default (configContext) => {
             loaninStatusAuthorizerLHMC: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.loansin_lhmc.loaninStatusAuthorizerLHMC.name',
-                    defaultMessage: 'Authorizer',
-                  },
                   fullName: {
                     id: 'field.loansin_lhmc.loaninStatusAuthorizerLHMC.fullName',
                     defaultMessage: 'Loan status authorizer',
+                  },
+                  name: {
+                    id: 'field.loansin_lhmc.loaninStatusAuthorizerLHMC.name',
+                    defaultMessage: 'Authorizer',
                   },
                 }),
                 view: {

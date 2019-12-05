@@ -49,13 +49,13 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_DATE,
                 messages: defineMessages({
-                  name: {
-                    id: 'field.acquisitions_lhmc.receivedDate.name',
-                    defaultMessage: 'Date',
-                  },
                   fullName: {
                     id: 'field.acquisitions_lhmc.receivedDate.fullName',
                     defaultMessage: 'Received date',
+                  },
+                  name: {
+                    id: 'field.acquisitions_lhmc.receivedDate.name',
+                    defaultMessage: 'Date',
                   },
                 }),
                 view: {
@@ -66,13 +66,13 @@ export default (configContext) => {
             receivedBy: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.acquisitions_lhmc.receivedBy.name',
-                    defaultMessage: 'By',
-                  },
                   fullName: {
                     id: 'field.acquisitions_lhmc.receivedBy.fullName',
                     defaultMessage: 'Received by',
+                  },
+                  name: {
+                    id: 'field.acquisitions_lhmc.receivedBy.name',
+                    defaultMessage: 'By',
                   },
                 }),
                 view: {

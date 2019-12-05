@@ -98,13 +98,13 @@ export default (configContext) => {
             premiumCurrency: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.intakes_lhmc.premiumCurrency.name',
-                    defaultMessage: 'Currency',
-                  },
                   fullName: {
                     id: 'field.intakes_lhmc.premiumCurrency.fullName',
                     defaultMessage: 'Premium currency',
+                  },
+                  name: {
+                    id: 'field.intakes_lhmc.premiumCurrency.name',
+                    defaultMessage: 'Currency',
                   },
                 }),
                 view: {
@@ -119,13 +119,13 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_FLOAT,
                 messages: defineMessages({
-                  name: {
-                    id: 'field.intakes_lhmc.premiumValue.name',
-                    defaultMessage: 'Value',
-                  },
                   fullName: {
                     id: 'field.intakes_lhmc.premiumValue.fullName',
                     defaultMessage: 'Premium value',
+                  },
+                  name: {
+                    id: 'field.intakes_lhmc.premiumValue.name',
+                    defaultMessage: 'Value',
                   },
                 }),
                 view: {
@@ -160,13 +160,13 @@ export default (configContext) => {
             insuredValueCurrency: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.intakes_lhmc.insuredValueCurrency.name',
-                    defaultMessage: 'Currency',
-                  },
                   fullName: {
                     id: 'field.intakes_lhmc.insuredValueCurrency.fullName',
                     defaultMessage: 'Insured value currency',
+                  },
+                  name: {
+                    id: 'field.intakes_lhmc.insuredValueCurrency.name',
+                    defaultMessage: 'Currency',
                   },
                 }),
                 view: {
@@ -181,13 +181,13 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_FLOAT,
                 messages: defineMessages({
-                  name: {
-                    id: 'field.intakes_lhmc.insuredValue.name',
-                    defaultMessage: 'Value',
-                  },
                   fullName: {
                     id: 'field.intakes_lhmc.insuredValue.fullName',
                     defaultMessage: 'Insured value',
+                  },
+                  name: {
+                    id: 'field.intakes_lhmc.insuredValue.name',
+                    defaultMessage: 'Value',
                   },
                 }),
                 view: {

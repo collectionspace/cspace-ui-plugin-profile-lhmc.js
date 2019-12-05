@@ -59,13 +59,13 @@ export default (configContext) => {
         relatedPerson: {
           [config]: {
             messages: defineMessages({
-              name: {
-                id: 'field.persons_lhmc.relatedPerson.name',
-                defaultMessage: 'Name',
-              },
               fullName: {
                 id: 'field.persons_lhmc.relatedPerson.fullName',
                 defaultMessage: 'Related person name',
+              },
+              name: {
+                id: 'field.persons_lhmc.relatedPerson.name',
+                defaultMessage: 'Name',
               },
             }),
             view: {
@@ -79,13 +79,13 @@ export default (configContext) => {
         relationshipType: {
           [config]: {
             messages: defineMessages({
-              name: {
-                id: 'field.persons_lhmc.relationshipType.name',
-                defaultMessage: 'Type',
-              },
               fullName: {
                 id: 'field.persons_lhmc.relationshipType.fullName',
                 defaultMessage: 'Related person type',
+              },
+              name: {
+                id: 'field.persons_lhmc.relationshipType.name',
+                defaultMessage: 'Type',
               },
             }),
             view: {
@@ -99,13 +99,13 @@ export default (configContext) => {
         relationshipNote: {
           [config]: {
             messages: defineMessages({
-              name: {
-                id: 'field.persons_lhmc.relationshipNote.name',
-                defaultMessage: 'Note',
-              },
               fullName: {
                 id: 'field.persons_lhmc.relationshipNote.fullName',
                 defaultMessage: 'Related person note',
+              },
+              name: {
+                id: 'field.persons_lhmc.relationshipNote.name',
+                defaultMessage: 'Note',
               },
             }),
             view: {
@@ -116,13 +116,13 @@ export default (configContext) => {
         placeOrResidence: {
           [config]: {
             messages: defineMessages({
+              fullName: {
+                id: 'field.persons_lhmc.placeOrResidence.fullName',
+                defaultMessage: 'Place/geographical area of residence name',
+              },
               name: {
                 id: 'field.persons_lhmc.placeOrResidence.name',
                 defaultMessage: 'Name',
-              },
-              fullName: {
-                id: 'field.persons_lhmc.placeOrResidence.fullName',
-                defaultMessage: 'Place name',
               },
             }),
             view: {
@@ -136,13 +136,13 @@ export default (configContext) => {
         placeNote: {
           [config]: {
             messages: defineMessages({
+              fullName: {
+                id: 'field.persons_lhmc.placeNote.fullName',
+                defaultMessage: 'Place/geographical area of residence note',
+              },
               name: {
                 id: 'field.persons_lhmc.placeNote.name',
                 defaultMessage: 'Note',
-              },
-              fullName: {
-                id: 'field.persons_lhmc.placeNote.fullName',
-                defaultMessage: 'Place note',
               },
             }),
             view: {
@@ -176,13 +176,13 @@ export default (configContext) => {
             publicationsPerson: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.persons_lhmc.publicationsPerson.name',
-                    defaultMessage: 'Name',
-                  },
                   fullName: {
                     id: 'field.persons_lhmc.publicationsPerson.fullName',
                     defaultMessage: 'Publication name',
+                  },
+                  name: {
+                    id: 'field.persons_lhmc.publicationsPerson.name',
+                    defaultMessage: 'Name',
                   },
                 }),
                 view: {
@@ -196,13 +196,13 @@ export default (configContext) => {
             publicationsPersonNote: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.persons_lhmc.publicationsPersonNote.name',
-                    defaultMessage: 'Note',
-                  },
                   fullName: {
                     id: 'field.persons_lhmc.publicationsPersonNote.fullName',
                     defaultMessage: 'Publication note',
+                  },
+                  name: {
+                    id: 'field.persons_lhmc.publicationsPersonNote.name',
+                    defaultMessage: 'Note',
                   },
                 }),
                 view: {

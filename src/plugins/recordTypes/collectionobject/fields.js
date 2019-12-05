@@ -1,7 +1,6 @@
 export default (configContext) => {
   const {
     AutocompleteInput,
-    CompoundInput,
     OptionPickerInput,
     TermPickerInput,
   } = configContext.inputComponents;
@@ -81,11 +80,6 @@ export default (configContext) => {
           },
         },
         assocPlaceGroupList: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
           assocPlaceGroup: {
             assocPlace: {
               [config]: {
