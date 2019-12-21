@@ -5,7 +5,7 @@ import forms from './forms';
 import messages from './messages';
 import title from './title';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   recordTypes: {
     conditioncheck: {
       messages,

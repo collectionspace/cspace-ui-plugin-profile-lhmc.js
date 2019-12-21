@@ -1,7 +1,7 @@
 import fields from './fields';
 import forms from './forms';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   recordTypes: {
     movement: {
       fields: fields(configContext),

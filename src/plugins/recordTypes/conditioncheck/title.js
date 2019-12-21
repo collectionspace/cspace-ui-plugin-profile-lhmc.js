@@ -1,4 +1,4 @@
-export default configContext => (data) => {
+export default (configContext) => (data) => {
   const {
     getPart,
     deepGet,
@@ -19,5 +19,5 @@ export default configContext => (data) => {
   const condition = lhmc && deepGet(lhmc, ['conditionCheckLHMCGroupList', 'conditionCheckLHMCGroup', 0, 'conditionLHMC']);
   const formattedCondition = formatRefName(condition);
 
-  return [conditioncheckRefNumber, formattedCondition].filter(part => !!part).join(' – ');
+  return [conditioncheckRefNumber, formattedCondition].filter((part) => !!part).join(' – ');
 };
