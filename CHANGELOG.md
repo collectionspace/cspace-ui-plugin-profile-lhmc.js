@@ -1,5 +1,13 @@
 # Change Log
 
+## v3.0.0
+
+v3.0.0 adds support for CollectionSpace 6.0.
+
+### Breaking Changes
+
+- v3.0.0 requires cspace-ui version 4. If you've customized this profile, see the cspace-ui 4.0.0 change log for configuration changes that may be needed.
+
 ## v2.0.0
 
 v2.0.0 adds support for CollectionSpace 5.2.
