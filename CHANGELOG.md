@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.1.0
+
+- Added the Named Collection field to Object record editor forms (only if using cspace-ui version 5).
+- Enabled the Work authority.
+
 ## v3.0.0
 
 v3.0.0 adds support for CollectionSpace 6.0.

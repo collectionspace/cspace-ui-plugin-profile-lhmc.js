@@ -8,7 +8,6 @@ import loanout from './loanout';
 import movement from './movement';
 import person from './person';
 import place from './place';
-import work from './work';
 
 export default [
   acquisition,
@@ -21,5 +20,4 @@ export default [
   movement,
   person,
   place,
-  work,
 ];
