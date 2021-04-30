@@ -1,5 +1,11 @@
 # Change Log
 
+## v4.0.0
+
+### Breaking Changes
+
+- v4.0.0 requires cspace-ui version 6. On the record editor form for Object records, the annotation field group (`annotationGroupList`) has been added. These fields are defined in cspace-ui version 6.0.0, but not in prior versions. To use this version of cspace-ui-plugin-profile-lhmc with an older version of cspace-ui, this field group should be hidden; otherwise, any values entered will not be saved.
+
 ## v3.1.0
 
 - Added the Named Collection field to Object record editor forms (only if using cspace-ui version 5).
