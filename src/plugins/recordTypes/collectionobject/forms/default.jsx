@@ -5,6 +5,7 @@ const template = (configContext) => {
 
   const {
     Col,
+    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
@@ -573,6 +574,77 @@ const template = (configContext) => {
       </Panel>
 
       {extensions.culturalcare.collectionobject.form}
+
+      <Panel name="rights" collapsible collapsed>
+        <Field name="rightsGroupList">
+          <Field name="rightsGroup">
+            <Panel>
+              <Row>
+                <Field name="rightType" />
+
+                <Row>
+                  <Field name="rightBeginDate" />
+                  <Field name="rightEndDate" />
+                </Row>
+              </Row>
+
+              <Field name="rightHolderGroupList">
+                <Field name="rightHolderGroup">
+                  <Field name="rightHolder" />
+                  <Field name="rightHolderContact" />
+                </Field>
+              </Field>
+
+              <Row>
+                <Field name="rightJurisdiction" />
+                <Field name="standardizedRightStatement" />
+              </Row>
+
+              <Field name="rightStatement" />
+              <Field name="rightNote" />
+            </Panel>
+          </Field>
+        </Field>
+      </Panel>
+
+      <Panel name="rightsin" collapsible collapsed>
+        <Field name="rightsInGroupList">
+          <Field name="rightsInGroup">
+            <Panel>
+              <Row>
+                <Field name="rightInTypes">
+                  <Field name="rightInType" />
+                </Field>
+
+                <Row>
+                  <Field name="rightInBeginDate" />
+                  <Field name="rightInEndDate" />
+                </Row>
+              </Row>
+
+              <Row>
+                <Field name="agreementSent" />
+                <Field name="agreementReceived" />
+                <Field name="agreementSigned" />
+              </Row>
+
+              <Cols>
+                <Col>
+                  <Field name="rightInRestrictions">
+                    <Field name="rightInRestriction" />
+                  </Field>
+                </Col>
+
+                <Col>
+                  <Field name="rightReproductionStatement" />
+                </Col>
+              </Cols>
+
+              <Field name="rightInNote" />
+            </Panel>
+          </Field>
+        </Field>
+      </Panel>
 
       <Panel name="hierarchy" collapsible collapsed>
         <Field name="relation-list-item" subpath="rel:relations-common-list" />
