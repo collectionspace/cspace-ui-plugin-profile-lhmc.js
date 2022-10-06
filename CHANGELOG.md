@@ -1,5 +1,11 @@
 # Change Log
 
+## v5.0.0
+
+### Breaking Changes
+
+- v5.0.0 requires cspace-ui version 7.1. On the record editor form for Object records, copyright fields have been added. These fields are defined in cspace-ui version 7.1.0, but not in prior versions. To use this version of cspace-ui-plugin-profile-lhmc with an older version of cspace-ui, these fields should be hidden; otherwise, any values entered will not be saved.
+
 ## v4.0.0
 
 ### Breaking Changes
