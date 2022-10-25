@@ -6,4 +6,7 @@ export default (configContext) => ({
   default: defaultForm(configContext),
   photo: photoForm(configContext),
   public: publicForm(configContext),
+  timebased: {
+    disabled: true,
+  },
 });
