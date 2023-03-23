@@ -21,6 +21,12 @@ export default () => ({
           defaultMessage: 'Local History and Material Culture profile',
         },
       }),
+      packageName: cspaceUIPluginProfileLHMC.packageName,
+      packageVersion: cspaceUIPluginProfileLHMC.packageVersion,
+      buildNum: cspaceUIPluginProfileLHMC.buildNum,
+      repositoryUrl: cspaceUIPluginProfileLHMC.repositoryUrl,
+      // packageVersion is now preferred, but keep version for backward compatibility with older
+      // versions of cspace-ui.
       version: cspaceUIPluginProfileLHMC.packageVersion,
     },
   },
