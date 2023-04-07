@@ -1,6 +1,7 @@
 # cspace-ui-plugin-profile-lhmc
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-lhmc.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-lhmc.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-profile-lhmc.svg)](https://www.npmjs.com/package/cspace-ui-plugin-profile-lhmc)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-profile-lhmc.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-profile-lhmc.js/actions/workflows/ci-js.yml)
 
 Local History and Material Culture profile plugin for the CollectionSpace UI.
 
