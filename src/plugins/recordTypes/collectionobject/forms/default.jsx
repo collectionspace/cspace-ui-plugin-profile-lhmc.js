@@ -153,6 +153,10 @@ const template = (configContext) => {
             <Field name="colors">
               <Field name="color" />
             </Field>
+
+            <Field name="apparelSizes">
+              <Field name="apparelSize" />
+            </Field>
           </Col>
         </Row>
 
