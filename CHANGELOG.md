@@ -9,10 +9,12 @@ v6.0.0 adds support for CollectionSpace 7.2.
 The record editor form for Object records now includes the following new fields, added in CollectionSpace 7.2. To use this version of the local history and material culture profile with an older CollectionSpace server, these fields should be hidden; otherwise, any values entered will not be saved.
 
 - Description Level (`descriptionLevel`)
+- Object Name Controlled (`objectNameList/objectNameGroup/objectNameControlled`)
+- Material Controlled (`materialGroupList/materialGroup/materialControlled`)
 - Apparel Size (`apparelSizes/apparelSize`)
 - Production Era (`objectProductionEras/objectProductionEra`)
-- Associated Controlled Event (`assocEvent`)
-- Associated Controlled Event Type (`assocEventType`)
+- Content controlled event or period/era (`contentEvents/contentEvent`)
+- Associated controlled event or period/era (`assocEvents/assocEvent`)
 
 ## v5.0.0
 
