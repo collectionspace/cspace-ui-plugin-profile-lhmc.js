@@ -111,6 +111,7 @@ const template = (configContext) => {
         <Field name="objectNameList">
           <Field name="objectNameGroup">
             <Field name="objectName" />
+            <Field name="objectNameControlled" />
             <Field name="objectNameCurrency" />
             <Field name="objectNameLevel" />
             <Field name="objectNameSystem" />
@@ -164,6 +165,7 @@ const template = (configContext) => {
         <Field name="materialGroupList">
           <Field name="materialGroup">
             <Field name="material" />
+            <Field name="materialControlled" />
             <Field name="materialComponent" />
             <Field name="materialComponentNote" />
             <Field name="materialName" />
@@ -249,6 +251,10 @@ const template = (configContext) => {
                   <Field name="contentEventName" />
                   <Field name="contentEventNameType" />
                 </Field>
+              </Field>
+
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
               </Field>
 
               <Field name="contentOtherGroupList">
@@ -450,10 +456,9 @@ const template = (configContext) => {
                 <Field name="assocEventNameType" />
               </InputTable>
 
-              <InputTable name="assocControlledEvent">
+              <Field name="assocEvents">
                 <Field name="assocEvent" />
-                <Field name="assocEventType" />
-              </InputTable>
+              </Field>
 
               <Field name="assocEventOrganizations">
                 <Field name="assocEventOrganization" />
