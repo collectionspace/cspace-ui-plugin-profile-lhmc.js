@@ -22,7 +22,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.movements_lhmc.tempLocAuthorizedBy.name',
-                defaultMessage: 'Temp location authorized by',
+                defaultMessage: 'Location authorized by',
               },
             }),
             view: {

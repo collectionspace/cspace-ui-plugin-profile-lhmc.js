@@ -46,24 +46,6 @@ export default {
   'field.intakes_common.conditionCheckerOrAssessor.fullName': 'Condition check by',
   'field.intakes_common.conditionCheckerOrAssessor.name': 'Condition by',
 
-  // movement
-
-  'field.movements_common.movementReferenceNumber.name': 'Object ID',
-  'field.movements_common.normalLocation.name': 'Home location/building',
-  'inputTable.movement.currentLocation': 'Temp location/building',
-  'field.movements_common.currentLocation.fullName': 'Temp location/building',
-  'field.movements_common.currentLocation.name': 'Location/building',
-  'field.movements_common.currentLocationFitness.fullName': 'Temp location/building fitness',
-  'field.movements_common.currentLocationNote.fullName': 'Temp location/building note',
-  'field.movements_common.locationDate.name': 'Inventoried date',
-  'field.movements_common.reasonForMove.name': 'Reason',
-  'field.movements_common.movementContact.fullName': 'Moved by',
-  'field.movements_common.movementContact.name': 'Moved by',
-  'field.movements_common.plannedRemovalDate.name': 'Temp location until',
-  'field.movements_common.removalDate.name': 'Temp location date',
-  'field.movements_common.movementNote.fullName': 'Temp location note',
-  'field.movements_common.movementNote.name': 'Temp location note',
-
   // person
 
   'field.persons_common.personTermGroupList.required': 'At least one full name is required. Please enter a value.',
