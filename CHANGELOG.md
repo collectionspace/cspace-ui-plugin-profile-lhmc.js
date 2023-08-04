@@ -1,5 +1,11 @@
 # Change Log
 
+## v6.1.0
+
+Message overrides for fields in the Location/Movement/Inventory procedure inherited from core are removed.
+
+The message for the LHMC-specific tempLocAuthorizedBy field is changed from "Temp location authorized by" to "Location authorized by".
+
 ## v6.0.0
 
 v6.0.0 adds support for CollectionSpace 7.2.
