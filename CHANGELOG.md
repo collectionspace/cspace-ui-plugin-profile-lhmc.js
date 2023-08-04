@@ -1,11 +1,5 @@
 # Change Log
 
-## v6.1.0
-
-Message overrides for fields in the Location/Movement/Inventory procedure inherited from core are removed.
-
-The message for the LHMC-specific tempLocAuthorizedBy field is changed from "Temp location authorized by" to "Location authorized by".
-
 ## v6.0.0
 
 v6.0.0 adds support for CollectionSpace 7.2.
@@ -21,6 +15,11 @@ The record editor form for Object records now includes the following new fields,
 - Production Era (`objectProductionEras/objectProductionEra`)
 - Content controlled event or period/era (`contentEvents/contentEvent`)
 - Associated controlled event or period/era (`assocEvents/assocEvent`)
+
+### Other Changes
+
+- Message overrides for fields in the Location/Movement/Inventory procedure inherited from core are removed.
+- The message for the LHMC-specific tempLocAuthorizedBy field is changed from "Temp location authorized by" to "Location authorized by".
 
 ## v5.0.0
 
