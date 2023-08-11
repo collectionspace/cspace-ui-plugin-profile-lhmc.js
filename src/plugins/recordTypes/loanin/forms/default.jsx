@@ -55,6 +55,8 @@ const template = (configContext) => {
           <Field name="loanReturnDate" />
           <Field name="loanRenewalApplicationDate" />
         </Row>
+
+        <Field name="creditLine" />
       </Panel>
     </Field>
   );
