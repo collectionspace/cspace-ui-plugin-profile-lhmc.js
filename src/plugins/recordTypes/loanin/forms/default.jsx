@@ -23,10 +23,14 @@ const template = (configContext) => {
 
         <Field name="loaninStatusLHMCGroupList" subpath="ns2:loansin_lhmc">
           <Field name="loaninStatusLHMCGroup">
-            <Field name="loaninStatusLHMC" />
-            <Field name="loaninStatusDateLHMC" />
-            <Field name="loaninStatusNoteLHMC" />
-            <Field name="loaninStatusAuthorizerLHMC" />
+            <Panel>
+              <Row>
+                <Field name="loaninStatusLHMC" />
+                <Field name="loaninStatusDateLHMC" />
+                <Field name="loaninStatusAuthorizerLHMC" />
+              </Row>
+              <Field name="loaninStatusNoteLHMC" />
+            </Panel>
           </Field>
         </Field>
 
