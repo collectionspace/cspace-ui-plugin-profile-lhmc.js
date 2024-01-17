@@ -41,10 +41,14 @@ const template = (configContext) => {
 
         <Field name="loanoutStatusLHMCGroupList" subpath="ns2:loansout_lhmc">
           <Field name="loanoutStatusLHMCGroup">
-            <Field name="loanoutStatusLHMC" />
-            <Field name="loanoutStatusDateLHMC" />
-            <Field name="loanoutStatusNoteLHMC" />
-            <Field name="loanoutStatusAuthorizerLHMC" />
+            <Panel>
+              <Row>
+                <Field name="loanoutStatusLHMC" />
+                <Field name="loanoutStatusDateLHMC" />
+                <Field name="loanoutStatusAuthorizerLHMC" />
+              </Row>
+              <Field name="loanoutStatusNoteLHMC" />
+            </Panel>
           </Field>
         </Field>
 
