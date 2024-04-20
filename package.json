@@ -57,7 +57,7 @@
     "chai-as-promised": "^5.3.0",
     "chai-immutable": "^1.6.0",
     "cross-env": "^2.0.0",
-    "cspace-ui": "^9.0.0-rc.3",
+    "cspace-ui": "^9.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
@@ -85,7 +85,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^5.0.4"
   },
   "nyc": {
     "include": [
