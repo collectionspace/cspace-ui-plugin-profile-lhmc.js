@@ -355,6 +355,10 @@ const template = (configContext) => {
               </Field>
             </Field>
 
+            <Field name="objectProductionLocationsVerbatim" subpath="ns2:collectionobjects_objectprod_extension">
+              <Field name="objectProductionLocationVerbatim" />
+            </Field>
+
             <Field name="objectProductionReasons">
               <Field name="objectProductionReason" />
             </Field>

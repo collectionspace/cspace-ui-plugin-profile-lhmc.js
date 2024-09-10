@@ -104,6 +104,34 @@ export default (configContext) => {
           },
         },
       },
+      'ns2:collectionobjects_objectprod_extension': {
+        [config]: {
+          service: {
+            ns: 'http://collectionspace.org/services/collectionobject/domain/objectprod_extension',
+          },
+        },
+        objectProductionLocationsVerbatim: {
+          [config]: {
+            view: {
+              type: CompoundInput,
+            },
+          },
+          objectProductionLocationVerbatim: {
+            [config]: {
+              messages: defineMessages({
+                name: {
+                  id: 'field.collectionobjects_objectprod.objectProductionLocationVerbatim.name',
+                  defaultMessage: 'Production location (verbatim)',
+                },
+              }),
+              repeating: true,
+              view: {
+                type: TextInput,
+              },
+            },
+          },
+        },
+      },
       ...extensions.culturalcare.collectionobject.fields,
     },
   };
