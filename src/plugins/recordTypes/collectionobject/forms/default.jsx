@@ -143,13 +143,6 @@ const template = (configContext) => {
             <Field name="objectStatusList">
               <Field name="objectStatus" />
             </Field>
-
-            <Field name="sex" />
-            <Field name="phase" />
-
-            <Field name="forms">
-              <Field name="form" />
-            </Field>
           </Col>
 
           <Col>
