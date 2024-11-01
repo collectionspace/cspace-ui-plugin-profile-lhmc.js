@@ -110,18 +110,18 @@ export default (configContext) => {
             ns: 'http://collectionspace.org/services/collectionobject/domain/objectprod_extension',
           },
         },
-        objectProductionLocationsVerbatim: {
+        objectProductionPlacesVerbatim: {
           [config]: {
             view: {
               type: CompoundInput,
             },
           },
-          objectProductionLocationVerbatim: {
+          objectProductionPlaceVerbatim: {
             [config]: {
               messages: defineMessages({
                 name: {
-                  id: 'field.collectionobjects_objectprod.objectProductionLocationVerbatim.name',
-                  defaultMessage: 'Production location (verbatim)',
+                  id: 'field.collectionobjects_objectprod.objectProductionPlaceVerbatim.name',
+                  defaultMessage: 'Production place (verbatim)',
                 },
               }),
               repeating: true,
