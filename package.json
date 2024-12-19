@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-lhmc",
-  "version": "7.1.0-rc.2",
+  "version": "8.0.0-rc.0",
   "description": "Local History and Material Culture profile plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
