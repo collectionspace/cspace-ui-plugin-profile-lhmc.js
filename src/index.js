@@ -13,6 +13,30 @@ export default () => ({
   className: styles.common,
   prettyUrls: true,
   tenantId: '501',
+  // normally this is done in each recordType config but with so many it's a little cleaner here
+  recordTypes: {
+    consultation: {
+      disabled: true,
+    },
+    dutyofcare: {
+      disabled: true,
+    },
+    nagprainventory: {
+      disabled: true,
+    },
+    repatriationrequest: {
+      disabled: true,
+    },
+    summarydocumentation: {
+      disabled: true,
+    },
+    heldintrust: {
+      disabled: true,
+    },
+    restrictedmedia: {
+      disabled: true,
+    },
+  },
   pluginInfo: {
     cspaceUIPluginProfileLHMC: {
       messages: defineMessages({
