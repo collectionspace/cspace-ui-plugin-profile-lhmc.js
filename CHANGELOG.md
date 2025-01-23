@@ -1,5 +1,19 @@
 # Change Log
 
+## v8.0.0
+
+v8.0.0 adds support for CollectionSpace 8.1, and requires cspace-ui version 10.
+
+### Breaking Changes
+
+- On the record editor form for Object records:
+  - The field Production Place Verbatim (`objectProductionPlacesVerbatim`) has been added. If this version of the local history and materials profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+  - The field Object Count Unit (`objectCountUnit`) has been added to the field group Object Count Group. If this version of the local history and materials profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+  - The field group Publised Related Links (`publishedRelatedLinkGroupList/publishedRelatedLinkGroup`) has been added. If this version of the local history and materials profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+  - The field Phase has been removed from the default template
+  - The field Sex has been removed from the default template
+  - The field group Form (`forms/form`) has been removed from the default template
+
 ## v7.0.0
 
 v7.0.0 adds support for CollectionSpace 8.0, and requires cspace-ui version 9.
