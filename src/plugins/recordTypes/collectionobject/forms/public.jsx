@@ -14,10 +14,6 @@ const template = (configContext) => {
     Field,
   } = configContext.recordComponents;
 
-  const {
-    extensions,
-  } = configContext.config;
-
   return (
     <Field name="document">
       <Panel name="id" collapsible>
@@ -82,7 +78,7 @@ const template = (configContext) => {
         </Field>
 
         <Field name="measuredPartGroupList">
-          <Field name="measuredPartGroup" tabular={true}>
+          <Field name="measuredPartGroup" tabular>
             <Row>
               <Field name="measuredPart" />
               <Field name="dimensionSummary" />
@@ -111,7 +107,7 @@ const template = (configContext) => {
               <Field name="contentOrganizations">
                 <Field name="contentOrganization" />
               </Field>
-           </Col>
+            </Col>
           </Cols>
         </Panel>
       </Panel>
