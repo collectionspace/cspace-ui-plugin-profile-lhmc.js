@@ -5,6 +5,7 @@ const template = (configContext) => {
 
   const {
     Col,
+    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
@@ -32,6 +33,10 @@ const template = (configContext) => {
           <Col>
             <Field name="briefDescriptions">
               <Field name="briefDescription" />
+            </Field>
+
+            <Field name="publishToList">
+              <Field name="publishTo" />
             </Field>
           </Col>
         </Row>
@@ -94,9 +99,28 @@ const template = (configContext) => {
         {extensions.dimension.form}
 
         <Panel name="content" collapsible>
-          <Field name="contentConcepts">
-            <Field name="contentConcept" />
-          </Field>
+          <Field name="contentDescription" />
+
+          <Cols>
+            <Col>
+              <Field name="contentConcepts">
+                <Field name="contentConcept" />
+              </Field>
+            </Col>
+            <Col>
+              <Field name="contentPersons">
+                <Field name="contentPerson" />
+              </Field>
+
+              <Field name="contentOrganizations">
+                <Field name="contentOrganization" />
+              </Field>
+
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
+              </Field>
+            </Col>
+          </Cols>
         </Panel>
       </Panel>
 
@@ -150,6 +174,27 @@ const template = (configContext) => {
 
       <Panel name="viewer" collapsible>
         <Field name="viewersContributionNote" />
+      </Panel>
+
+      <Panel name="rights" collapsible collapsed>
+        <Field name="rightsGroupList">
+          <Field name="rightsGroup" tabular>
+            <Field name="standardizedRightStatement" />
+            <Field name="rightStatement" />
+          </Field>
+        </Field>
+      </Panel>
+
+      <Panel name="rightsin" collapsible collapsed>
+        <Field name="rightsInGroupList">
+          <Field name="rightsInGroup">
+            <Panel>
+              <Col>
+                <Field name="rightReproductionStatement" />
+              </Col>
+            </Panel>
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="reference" collapsible collapsed>
