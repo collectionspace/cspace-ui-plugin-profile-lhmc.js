@@ -5,6 +5,7 @@ const template = (configContext) => {
 
   const {
     Col,
+    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
@@ -12,10 +13,6 @@ const template = (configContext) => {
   const {
     Field,
   } = configContext.recordComponents;
-
-  const {
-    extensions,
-  } = configContext.config;
 
   return (
     <Field name="document">
@@ -32,6 +29,10 @@ const template = (configContext) => {
           <Col>
             <Field name="briefDescriptions">
               <Field name="briefDescription" />
+            </Field>
+
+            <Field name="publishToList">
+              <Field name="publishTo" />
             </Field>
           </Col>
         </Row>
@@ -64,39 +65,50 @@ const template = (configContext) => {
           <Field name="objectNameGroup">
             <Field name="objectNameControlled" />
             <Field name="objectName" />
-            <Field name="objectNameCurrency" />
-            <Field name="objectNameLevel" />
-            <Field name="objectNameSystem" />
-            <Field name="objectNameType" />
-            <Field name="objectNameLanguage" />
-            <Field name="objectNameNote" />
           </Field>
         </Field>
-
       </Panel>
 
       <Panel name="desc" collapsible>
-        <Field name="colors">
-          <Field name="color" />
-        </Field>
-
         <Field name="materialGroupList">
           <Field name="materialGroup">
             <Field name="materialControlled" />
             <Field name="material" />
-            <Field name="materialComponent" />
-            <Field name="materialComponentNote" />
-            <Field name="materialName" />
-            <Field name="materialSource" />
           </Field>
         </Field>
 
-        {extensions.dimension.form}
+        <Field name="measuredPartGroupList">
+          <Field name="measuredPartGroup" tabular>
+            <Row>
+              <Field name="measuredPart" />
+              <Field name="dimensionSummary" />
+            </Row>
+          </Field>
+        </Field>
 
         <Panel name="content" collapsible>
-          <Field name="contentConcepts">
-            <Field name="contentConcept" />
-          </Field>
+          <Field name="contentDescription" />
+
+          <Cols>
+            <Col>
+              <Field name="contentConcepts">
+                <Field name="contentConcept" />
+              </Field>
+
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
+              </Field>
+            </Col>
+            <Col>
+              <Field name="contentPersons">
+                <Field name="contentPerson" />
+              </Field>
+
+              <Field name="contentOrganizations">
+                <Field name="contentOrganization" />
+              </Field>
+            </Col>
+          </Cols>
         </Panel>
       </Panel>
 
@@ -140,16 +152,25 @@ const template = (configContext) => {
         </Row>
       </Panel>
 
-      <Panel name="hist" collapsible>
-        <Field name="objectHistoryNote" />
+      <Panel name="rights" collapsible collapsed>
+        <Field name="rightsGroupList">
+          <Field name="rightsGroup" tabular>
+            <Field name="standardizedRightStatement" />
+            <Field name="rightStatement" />
+          </Field>
+        </Field>
       </Panel>
 
-      <Panel name="owner" collapsible>
-        <Field name="ownersContributionNote" />
-      </Panel>
-
-      <Panel name="viewer" collapsible>
-        <Field name="viewersContributionNote" />
+      <Panel name="rightsin" collapsible collapsed>
+        <Field name="rightsInGroupList">
+          <Field name="rightsInGroup">
+            <Panel>
+              <Col>
+                <Field name="rightReproductionStatement" />
+              </Col>
+            </Panel>
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="reference" collapsible collapsed>
