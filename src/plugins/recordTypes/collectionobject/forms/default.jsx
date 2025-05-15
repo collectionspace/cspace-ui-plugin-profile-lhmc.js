@@ -387,6 +387,10 @@ const template = (configContext) => {
               </Field>
             </Field>
 
+            <Field name="objectProductionAgents">
+              <Field name="objectProductionAgent" />
+            </Field>
+
             <Field name="objectProductionNote" />
           </Col>
         </Row>
