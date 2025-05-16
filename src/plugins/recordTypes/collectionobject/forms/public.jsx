@@ -125,6 +125,13 @@ const template = (configContext) => {
                 <Field name="objectProductionPlaceRole" />
               </Field>
             </Field>
+
+            <Field name="techniqueGroupList">
+              <Field name="techniqueGroup">
+                <Field name="technique" />
+                <Field name="techniqueType" />
+              </Field>
+            </Field>
           </Col>
 
           <Col>
