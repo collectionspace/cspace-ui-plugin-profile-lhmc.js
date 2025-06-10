@@ -1,5 +1,15 @@
 # Change Log
 
+## V8.1.0
+
+v8.1.0 adds support for CollectionSpace 8.2
+
+### Changes
+
+- On the record editor form for Object records:
+  - The field Object Production Agent (`objectProductionAgents/objectProductionAgent`) has been added. If this version of the local history and materials profile is used with a CollectionSpace server older than 8.2.0, values entered in this field will not be saved.
+  - The displayed fields in the public browser template have been updated to be better aligned with what is displayed in the CollectionSpace Public Browser.
+
 ## v8.0.0
 
 v8.0.0 adds support for CollectionSpace 8.1, and requires cspace-ui version 10.
