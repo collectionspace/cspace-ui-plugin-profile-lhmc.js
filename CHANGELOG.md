@@ -7,6 +7,7 @@ v8.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.2
 ### Changes
 
 - Added the Acquisition description free text field (`acquisitionDescription`) to the record editor for Acquisitions.
+- Added the Parties Involved group of fields (`partiesInvolvedGroupList/partiesInvolvedGroup`) to the record editor for Acquisitions.
 
 ## V8.1.0
 
