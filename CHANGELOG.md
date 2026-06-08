@@ -3,7 +3,7 @@
 ## V8.3.0
 
 ### Changes
-- Adds `homeStorageLocation` to the `default` template.
+- Adds `homeLocationGroupList` to the `default` template.
 
 ## V8.2.0
 
