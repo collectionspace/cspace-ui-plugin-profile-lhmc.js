@@ -1,5 +1,10 @@
 # Change Log
 
+## V8.3.0
+
+### Changes
+- Adds `homeLocationGroupList` to the `default` template.
+
 ## V8.2.0
 
 v8.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.2.0
