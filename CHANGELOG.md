@@ -1,5 +1,11 @@
 # Change Log
 
+## V8.3.0
+
+### Changes
+
+- On the record editor for Acquisitions, the Price Information fields are now displayed in a collapsible panel, collapsed by default.
+
 ## V8.2.0
 
 v8.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.2.0
