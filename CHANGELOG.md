@@ -4,6 +4,7 @@
 
 ### Changes
 
+- On the record editor for Acquisitions, the Price Information fields are now displayed in a collapsible panel, collapsed by default.
 - Added the Alternative Identifier group of fields (`alternativeIdentifierGroupList/alternativeIdentifierGroup`) to the record editor for Acquisitions.
 - Added `homeLocationGroupList` to the `default` template for Collections Objects.
 
