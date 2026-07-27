@@ -1,6 +1,8 @@
 # Change Log
 
-## V8.3.0
+## v9.0.0
+
+v9.0.0 adds support for CollectionSpace 9.0, and requires cspace-ui version 11.
 
 ### Changes
 
