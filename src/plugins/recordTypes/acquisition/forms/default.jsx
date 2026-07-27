@@ -21,6 +21,14 @@ const template = (configContext) => {
         <Cols>
           <Col>
             <Field name="acquisitionReferenceNumber" />
+
+            <Field name="alternativeIdentifierGroupList">
+              <Field name="alternativeIdentifierGroup">
+                <Field name="alternativeIdentifier" />
+                <Field name="alternativeIdentifierNote" />
+              </Field>
+            </Field>
+
             <Field name="accessionDateGroup" />
 
             <InputTable name="acquisitionAuthorizer">
@@ -52,18 +60,6 @@ const template = (configContext) => {
             </Field>
 
             <Field name="transferOfTitleNumber" />
-
-            <Panel name="priceInformation">
-              <InputTable name="groupPurchasePrice">
-                <Field name="groupPurchasePriceCurrency" />
-                <Field name="groupPurchasePriceValue" />
-              </InputTable>
-
-              <InputTable name="objectPurchasePrice">
-                <Field name="objectPurchasePriceCurrency" />
-                <Field name="objectPurchasePriceValue" />
-              </InputTable>
-            </Panel>
 
             <Field name="acquisitionDescription" />
 
@@ -107,6 +103,24 @@ const template = (configContext) => {
         </Field>
 
         <Field name="creditLine" />
+      </Panel>
+
+      <Panel name="priceInformation" collapsible collapsed>
+        <Cols>
+          <Col>
+            <InputTable name="groupPurchasePrice">
+              <Field name="groupPurchasePriceCurrency" />
+              <Field name="groupPurchasePriceValue" />
+            </InputTable>
+          </Col>
+
+          <Col>
+            <InputTable name="objectPurchasePrice">
+              <Field name="objectPurchasePriceCurrency" />
+              <Field name="objectPurchasePriceValue" />
+            </InputTable>
+          </Col>
+        </Cols>
       </Panel>
 
       <Panel name="objectCollectionInformation" collapsible collapsed>

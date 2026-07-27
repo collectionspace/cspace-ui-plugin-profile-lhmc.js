@@ -1,5 +1,15 @@
 # Change Log
 
+## v9.0.0
+
+v9.0.0 adds support for CollectionSpace 9.0, and requires cspace-ui version 11.
+
+### Changes
+
+- On the record editor for Acquisitions, the Price Information fields are now displayed in a collapsible panel, collapsed by default.
+- Added the Alternative Identifier group of fields (`alternativeIdentifierGroupList/alternativeIdentifierGroup`) to the record editor for Acquisitions.
+- Added `homeLocationGroupList` to the `default` template for Collections Objects.
+
 ## V8.2.0
 
 v8.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.2.0
